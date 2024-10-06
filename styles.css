@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('engevibra.jfif'); /* Atualizado para a nova imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: 40%; /* 50% da largura e altura do container */
+/* ou em pixels */
+    background-size: 600px 200px; /* 300 pixels de largura e 200 pixels de altura */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Mantendo o fundo do container semi-transparente */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Um pouco mais de sombra */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #e9f7ef;
+    border: 1px solid #c3e6cb;
+}
